@@ -1,0 +1,100 @@
+.main {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'BlinkMacSystemFont', -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: block;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.paragraph, .controller {
+  border: 1px solid #333;
+  border-radius: 5px; 
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.paragraph {
+    width: 70%;
+}
+
+.controller {
+    width: 12%;
+}
+
+
+v-erb {
+  transition: color 0.2s ease;
+}
+
+n-oun {
+  transition: color 0.2s ease;
+}
+
+a-djective {
+  transition: color 0.2s ease;
+}
+
+a-dverb {
+  transition: color 0.2s ease;
+}
+
+c-onjunction {
+  transition: color 0.2s ease;
+}
+
+p-ronoun {
+  transition: color 0.2s ease;
+}
+
+p-reposition {
+  transition: color 0.2s ease;
+}
+
+i-nterjection {
+  transition: color 0.2s ease;
+}
+
+a-rticle {
+  transition: color 0.2s ease;
+}
+
+.verb-color {
+  color: #f15c5c;
+}
+
+.noun-color {
+  color: #79bd9a;
+}
+
+.adjective-color {
+  color: #f9c00c;
+}
+
+.adverb-color {
+  color: #2b90d9;
+}
+
+.conjunction-color {
+  color: #ff5f2e;
+}
+
+.pronoun-color {
+  color: #7200da;
+}
+
+.preposition-color {
+  color: #2EC4B6;
+}
+
+.interjection-color {
+  color: #D81159;
+}
+
+.article-color {
+  color: #1ec0ff;
+}
