@@ -2,17 +2,6 @@
 
 var i = 0;
 
-// create custom elements
-document.registerElement('v-erb');
-document.registerElement('n-oun');
-document.registerElement('a-djective');
-document.registerElement('a-dverb');
-document.registerElement('c-onjunction');
-document.registerElement('p-ronoun');
-document.registerElement('p-reposition');
-document.registerElement('i-nterjection');
-document.registerElement('a-rticle');
-
 // create custom element selector + Status
 var verb = document.querySelectorAll("v-erb");
 var verbStatus = 0;
