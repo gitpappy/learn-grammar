@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 
-.paragraph, .controller {
+.paragraph, .controller, .instructions {
   border: 1px solid #333;
   border-radius: 5px; 
   display: inline-block;
@@ -18,49 +18,26 @@
   padding: 10px;
 }
 
-.paragraph {
+.paragraph, .instructions {
     width: 70%;
 }
 
-.controller {
+.controller, .padding {
     width: 12%;
+    padding-bottom: 13px;
 }
 
-
-v-erb {
-  transition: color 0.2s ease;
+.instructions {
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: left;
+  width: 84.7%;
+  background-color: #e8e8e8;
 }
 
-n-oun {
+v-erb, n-oun, a-djective, a-dverb, c-onjunction, p-ronoun, p-reposition, i-nterjection, a-rticle {
   transition: color 0.2s ease;
-}
-
-a-djective {
-  transition: color 0.2s ease;
-}
-
-a-dverb {
-  transition: color 0.2s ease;
-}
-
-c-onjunction {
-  transition: color 0.2s ease;
-}
-
-p-ronoun {
-  transition: color 0.2s ease;
-}
-
-p-reposition {
-  transition: color 0.2s ease;
-}
-
-i-nterjection {
-  transition: color 0.2s ease;
-}
-
-a-rticle {
-  transition: color 0.2s ease;
+  cursor: pointer;
 }
 
 .verb-color {
